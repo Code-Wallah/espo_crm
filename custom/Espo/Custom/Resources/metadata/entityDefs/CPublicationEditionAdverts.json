@@ -1,0 +1,161 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "pattern": "$noBadCharacters"
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "publicationEditionAdvertID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "publicationEditionID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "advertID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "commissionPaidDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "cancelledDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "invoiceDescription": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "confirmedDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "comments": {
+            "type": "varchar",
+            "maxLength": 1000,
+            "options": [],
+            "isCustom": true
+        },
+        "confirmComm": {
+            "type": "int",
+            "isCustom": true
+        },
+        "actualConfirmWeek": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "confirmedBy": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cancelledBy": {
+            "type": "int",
+            "isCustom": true
+        },
+        "pendingForCancel": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "pendingForRollover": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        },
+        "createdAt": {
+            "columns": [
+                "createdAt"
+            ]
+        },
+        "createdAtId": {
+            "unique": true,
+            "columns": [
+                "createdAt",
+                "id"
+            ]
+        }
+    }
+}

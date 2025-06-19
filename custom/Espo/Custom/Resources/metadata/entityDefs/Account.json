@@ -1,0 +1,79 @@
+{
+    "fields": {
+        "cCompanyID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cCompany": {
+            "type": "varchar",
+            "maxLength": 250,
+            "options": [],
+            "isCustom": true
+        },
+        "cBusinessTypeID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cIdentification": {
+            "type": "varchar",
+            "maxLength": 50,
+            "options": [],
+            "isCustom": true
+        },
+        "cTelephone": {
+            "type": "varchar",
+            "maxLength": 50,
+            "options": [],
+            "isCustom": true
+        },
+        "cCompanyTypeID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cLastBookingDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "cLastDealDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "cAgency": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cLtv": {
+            "notNull": false,
+            "type": "float",
+            "isCustom": true
+        },
+        "cStatusID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cMarkas": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cExternalId": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cWebAddress": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "cContactEmail": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "fields": {
+        "publicationID": "PublicationID",
+        "publishDate": "PublishDate"
+    }
+}

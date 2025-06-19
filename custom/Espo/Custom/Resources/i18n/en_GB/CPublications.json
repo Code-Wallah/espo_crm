@@ -1,0 +1,7 @@
+{
+    "fields": {
+        "salesManager": "SalesManager",
+        "publicationEditionIDSales": "PublicationEditionIDSales",
+        "publicationEditionIDProd": "PublicationEditionIDProd"
+    }
+}

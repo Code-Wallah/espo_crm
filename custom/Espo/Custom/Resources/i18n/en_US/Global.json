@@ -1,0 +1,16 @@
+{
+    "scopeNames": {
+        "CPublications": "Publication",
+        "CPublicationEditions": "PublicationEdition",
+        "CAdverts": "Advert",
+        "CPublicationEditionAdverts": "PublicationEditionAdvert",
+        "CBusinessTypes": "BusinessType"
+    },
+    "scopeNamesPlural": {
+        "CPublications": "Publications",
+        "CPublicationEditions": "PublicationEditions",
+        "CAdverts": "Adverts",
+        "CPublicationEditionAdverts": "PublicationEditionAdverts",
+        "CBusinessTypes": "BusinessTypes"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "labels": {
+        "Refresh Email": "Refresh Email"
+    },
+    "messages": {
+        "Checking for new emails...": "Checking for new emails...",
+        "Email sync completed successfully!": "Email sync completed successfully!",
+        "Email sync queued for {count} account(s)": "Email sync queued for {count} account(s)",
+        "No email accounts found to sync": "No email accounts found to sync",
+        "Email sync failed": "Email sync failed",
+        "Network error - please check your connection": "Network error - please check your connection",
+        "Permission denied - check your access rights": "Permission denied - check your access rights",
+        "Email sync service not found": "Email sync service not found"
+    }
+} 

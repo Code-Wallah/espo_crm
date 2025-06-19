@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "salesManager": "SalesManager",
+        "publicationEditionIDSales": "PublicationEditionIDSales",
+        "publicationEditionIDProd": "PublicationEditionIDProd"
+    },
+    "links": [],
+    "labels": {
+        "Create CPublications": "Create Publication"
+    }
+}

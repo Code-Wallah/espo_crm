@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "cCompanyID": "CompanyID",
+        "cContactSalutation": "ContactSalutation",
+        "cTelephone": "Telephone",
+        "cTelephone1": "Telephone1",
+        "cCell": "Cell",
+        "cContactEmail": "ContactEmail",
+        "cContactID": "ContactID"
+    }
+}

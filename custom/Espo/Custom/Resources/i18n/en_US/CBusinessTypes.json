@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "businessTypeID": "BusinessTypeID",
+        "businessType": "BusinessType"
+    },
+    "links": [],
+    "labels": {
+        "Create CBusinessTypes": "Create BusinessType"
+    }
+}

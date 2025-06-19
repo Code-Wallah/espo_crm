@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "publicationID": "PublicationID",
+        "publishDate": "PublishDate"
+    },
+    "links": [],
+    "labels": {
+        "Create CPublicationEditions": "Create PublicationEdition"
+    }
+}

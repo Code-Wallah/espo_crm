@@ -1,0 +1,22 @@
+{
+    "fields": {
+        "advertID": "AdvertID",
+        "publicationID": "PublicationID",
+        "companyID": "CompanyID",
+        "contactID": "ContactID",
+        "materialContactID": "MaterialContactID",
+        "invoiceContactID": "InvoiceContactID",
+        "staffID": "StaffID",
+        "price": "Price",
+        "agentCommission": "AgentCommission",
+        "terms": "Terms",
+        "comments": "Comments",
+        "orderConfirmDate": "OrderConfirmDate",
+        "dealTypeID": "DealTypeID",
+        "cINumber": "CINumber"
+    },
+    "links": [],
+    "labels": {
+        "Create CAdverts": "Create Advert"
+    }
+}

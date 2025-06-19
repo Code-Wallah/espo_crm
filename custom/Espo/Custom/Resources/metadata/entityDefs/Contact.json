@@ -1,0 +1,42 @@
+{
+    "fields": {
+        "cCompanyID": {
+            "type": "int",
+            "isCustom": true
+        },
+        "cContactSalutation": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "cTelephone": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "cTelephone1": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "cCell": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "cContactEmail": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "cContactID": {
+            "type": "int",
+            "isCustom": true
+        }
+    }
+}

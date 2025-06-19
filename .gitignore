@@ -1,0 +1,50 @@
+# EspoCRM Core Files (DO NOT VERSION CONTROL)
+/application/
+/vendor/
+/bin/
+/bootstrap.php
+/clear_cache.php
+/command.php
+/cron.php
+/daemon.php
+/extension.php
+/index.php
+/preload.php
+/rebuild.php
+/upgrade.php
+/websocket.php
+/html/
+/install/
+/public/
+
+# Runtime Data
+/data/logs/
+/data/cache/
+/data/config.php
+/data/config-internal.php
+/data/.data
+
+# IDE and OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup Files
+*.backup
+*.bak
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Local Environment
+.env
+.env.local
+
+# Only keep custom work:
+# ✅ /custom/
+# ✅ /client/custom/ (excluding modules/dummy.txt)
+/client/custom/modules/dummy.txt 

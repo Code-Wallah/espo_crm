@@ -1,0 +1,22 @@
+{
+    "fields": {
+        "publicationEditionAdvertID": "PublicationEditionAdvertID",
+        "publicationEditionID": "PublicationEditionID",
+        "advertID": "AdvertID",
+        "commissionPaidDate": "CommissionPaidDate",
+        "cancelledDate": "CancelledDate",
+        "invoiceDescription": "InvoiceDescription",
+        "confirmedDate": "ConfirmedDate",
+        "comments": "Comments",
+        "confirmComm": "ConfirmComm",
+        "actualConfirmWeek": "ActualConfirmWeek",
+        "confirmedBy": "ConfirmedBy",
+        "cancelledBy": "CancelledBy",
+        "pendingForCancel": "PendingForCancel",
+        "pendingForRollover": "PendingForRollover"
+    },
+    "links": [],
+    "labels": {
+        "Create CPublicationEditionAdverts": "Create PublicationEditionAdvert"
+    }
+}

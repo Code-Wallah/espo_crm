@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "cCompanyID": "CompanyID",
+        "cCompany": "Company",
+        "cBusinessTypeID": "BusinessTypeID",
+        "cIdentification": "Identification",
+        "cTelephone": "Telephone",
+        "cCompanyTypeID": "CompanyTypeID",
+        "cLastBookingDate": "LastBookingDate",
+        "cLastDealDate": "LastDealDate",
+        "cAgency": "Agency",
+        "cLtv": "Ltv",
+        "cStatusID": "StatusID",
+        "cMarkas": "Mark_as",
+        "cExternalId": "ExternalId",
+        "cWebAddress": "WebAddress",
+        "cContactEmail": "CompanyEmail"
+    }
+}
