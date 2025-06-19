@@ -1,0 +1,63 @@
+{
+    "fields": {
+        "userName": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 50,
+            "importable": true
+        },
+        "name": {
+            "type": "personName",
+            "importable": true
+        },
+        "firstName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "importable": true
+        },
+        "lastName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "importable": true
+        },
+        "emailAddress": {
+            "type": "email",
+            "importable": true
+        },
+        "phoneNumber": {
+            "type": "phone",
+            "importable": true
+        },
+        "title": {
+            "type": "varchar",
+            "maxLength": 100,
+            "importable": true
+        },
+        "position": {
+            "type": "varchar",
+            "maxLength": 100,
+            "importable": true
+        },
+        "department": {
+            "type": "varchar",
+            "maxLength": 100,
+            "importable": true
+        },
+        "isActive": {
+            "type": "bool",
+            "default": true,
+            "importable": true
+        },
+        "type": {
+            "type": "enum",
+            "options": ["regular", "admin", "portal", "system", "super-admin"],
+            "default": "regular",
+            "importable": true
+        },
+        "password": {
+            "type": "password",
+            "importable": false
+        }
+    },
+    "importable": true
+} 

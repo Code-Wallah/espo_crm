@@ -1,0 +1,27 @@
+{
+    "labels": {
+        "Import Users": "Import Users",
+        "Export Users": "Export Users"
+    },
+    "fields": {
+        "userName": "Username",
+        "firstName": "First Name", 
+        "lastName": "Last Name",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "title": "Title",
+        "position": "Position", 
+        "department": "Department",
+        "isActive": "Is Active",
+        "type": "User Type"
+    },
+    "options": {
+        "type": {
+            "regular": "Regular",
+            "admin": "Admin",
+            "portal": "Portal",
+            "system": "System",
+            "super-admin": "Super Admin"
+        }
+    }
+} 
