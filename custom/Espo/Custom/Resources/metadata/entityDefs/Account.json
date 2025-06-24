@@ -74,6 +74,26 @@
             "maxLength": 100,
             "options": [],
             "isCustom": true
+        },
+        "legacyCompanyId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false
+        },
+        "isAgency": {
+            "type": "bool",
+            "notStorable": false,
+            "default": false
+        },
+        "accountType": {
+            "type": "enum",
+            "options": ["Client", "Agency", "Both"],
+            "default": "Client",
+            "notStorable": false
         }
     }
 }

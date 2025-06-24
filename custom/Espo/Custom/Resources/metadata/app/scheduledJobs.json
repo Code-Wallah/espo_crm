@@ -1,0 +1,22 @@
+{
+    "DataSync": {
+        "jobClassName": "Espo\\Custom\\Jobs\\DataSync",
+        "name": "Data Sync from MSSQL",
+        "isSystem": false
+    },
+    "DataSyncTest": {
+        "jobClassName": "Espo\\Custom\\Jobs\\DataSyncTest", 
+        "name": "Data Sync Test",
+        "isSystem": false
+    },
+    "DataSyncDebug": {
+        "jobClassName": "Espo\\Custom\\Jobs\\DataSyncDebug",
+        "name": "Data Sync Debug", 
+        "isSystem": false
+    },
+    "SimpleTest": {
+        "jobClassName": "Espo\\Custom\\Jobs\\SimpleTest",
+        "name": "Simple Test Job", 
+        "isSystem": false
+    }
+} 

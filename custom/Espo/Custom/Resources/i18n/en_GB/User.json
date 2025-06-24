@@ -22,8 +22,6 @@
         "cExtension": "Extension",
         "cDefaultPrinter": "Default Printer",
 
-        "homePublicationId": "Home Publication",
-        "legacyHomePublicationId": "Legacy Home Publication ID",
         "cCitizenship": "Citizenship",
         "cIDNumber": "ID Number",
         "cDOB": "Date of Birth",

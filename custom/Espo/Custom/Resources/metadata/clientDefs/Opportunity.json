@@ -1,0 +1,5 @@
+{
+    "recordViews": {
+        "edit": "custom:views/opportunity/record/edit"
+    }
+} 

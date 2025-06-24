@@ -1,0 +1,5 @@
+{
+    "fieldProcessorClassNameMap": {
+        "name": "Espo\\Custom\\Classes\\FieldProcessing\\Opportunity\\NameProcessor"
+    }
+} 

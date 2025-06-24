@@ -1,0 +1,8 @@
+[
+    {"name": "account", "link": true, "width": 30},
+    {"name": "publication", "width": 22},
+    {"name": "stage", "width": 18},
+    {"name": "createdAt", "width": 15},
+    {"name": "closeDate", "width": 12, "hidden": true},
+    {"name": "amount", "align": "right", "width": 13}
+] 

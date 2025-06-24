@@ -1,0 +1,13 @@
+[
+    {
+        "label": "",
+        "rows":[
+            [{"name":"name"},{"name":"account"}],
+            [{"name":"publication"},false],
+            [{"name":"stage"},{"name":"amount"}],
+            [{"name":"probability"},{"name":"closeDate"}],
+            [{"name":"contacts"},{"name":"leadSource"}],
+            [{"name":"description", "fullWidth": true}]
+        ]
+    }
+] 

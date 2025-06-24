@@ -4,5 +4,25 @@
         "onlyMy"
     ],
     "color": "#0ea5e9",
-    "iconClass": "fas fa-book-open"
+    "iconClass": "fas fa-book-open",
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "label": "Publication Editions",
+                    "link": "#CPublicationEditions",
+                    "acl": "read",
+                    "style": "default",
+                    "aclScope": "CPublicationEditions"
+                },
+                {
+                    "label": "Adverts",
+                    "link": "#CAdverts",
+                    "acl": "read",
+                    "style": "default",
+                    "aclScope": "CAdverts"
+                }
+            ]
+        }
+    }
 }

@@ -1,0 +1,50 @@
+[
+    {
+        "route": "/DataSync/status",
+        "method": "get",
+        "params": {
+            "controller": "DataSync",
+            "action": "getStatus"
+        }
+    },
+    {
+        "route": "/DataSync/companies",
+        "method": "get",
+        "params": {
+            "controller": "DataSync",
+            "action": "getCompanies"
+        }
+    },
+    {
+        "route": "/DataSync/contacts",
+        "method": "get",
+        "params": {
+            "controller": "DataSync",
+            "action": "getContacts"
+        }
+    },
+    {
+        "route": "/DataSync/opportunities",
+        "method": "get",
+        "params": {
+            "controller": "DataSync",
+            "action": "getOpportunities"
+        }
+    },
+    {
+        "route": "/DataSync/staff",
+        "method": "get",
+        "params": {
+            "controller": "DataSync",
+            "action": "getStaff"
+        }
+    },
+    {
+        "route": "/DataSync/salesTeams",
+        "method": "get",
+        "params": {
+            "controller": "DataSync",
+            "action": "getSalesTeams"
+        }
+    }
+] 

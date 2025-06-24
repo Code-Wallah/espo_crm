@@ -37,6 +37,15 @@
         "cContactID": {
             "type": "int",
             "isCustom": true
+        },
+        "legacyContactId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false
         }
     }
 }

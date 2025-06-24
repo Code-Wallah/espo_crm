@@ -6,10 +6,6 @@
             "maxLength": 50,
             "importable": true
         },
-        "name": {
-            "type": "personName",
-            "importable": true
-        },
         "firstName": {
             "type": "varchar",
             "maxLength": 100,
@@ -54,10 +50,302 @@
             "default": "regular",
             "importable": true
         },
-        "password": {
-            "type": "password",
+        "gender": {
+            "type": "enum",
+            "options": ["", "Male", "Female", "Neutral"],
+            "importable": true
+        },
+        "salutationName": {
+            "type": "varchar",
+            "maxLength": 50,
+            "importable": true
+        },
+        "avatar": {
+            "type": "image",
             "importable": false
+        },
+        "cEndDate": {
+            "type": "datetime",
+            "isCustom": true,
+            "importable": true
+        },
+        "cCell": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cExtension": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cDefaultPrinter": {
+            "type": "int",
+            "isCustom": true,
+            "importable": true
+        },
+
+
+        "cCitizenship": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cIDNumber": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cDOB": {
+            "type": "date",
+            "isCustom": true,
+            "importable": true
+        },
+        "cPopulationGroup": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cDisability": {
+            "type": "bool",
+            "isCustom": true,
+            "importable": true
+        },
+        "cDisabilitySpec": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cDateOfEmp": {
+            "type": "date",
+            "isCustom": true,
+            "importable": true
+        },
+        "cJobType": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cJobTypeTerm": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cBankName": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cBankBranch": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cBranchCode": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cAccNum": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cAccType": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cAccName": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cTaxNum": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cTaxOffice": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cTaxPercentage": {
+            "type": "float",
+            "isCustom": true,
+            "importable": true
+        },
+        "cMedAid": {
+            "type": "bool",
+            "isCustom": true,
+            "importable": true
+        },
+        "cMedAidSchema": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cAccessLevel": {
+            "type": "int",
+            "isCustom": true,
+            "importable": true
+        },
+        "cHomeDr": {
+            "type": "bool",
+            "isCustom": true,
+            "importable": true
+        },
+        "cDrName": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cDrTel": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cNextKinSurname": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cNextKinFirstName": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cNextKinRelation": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cNextKinTelB": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cNextKinTelH": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cStaffDescription": {
+            "type": "text",
+            "isCustom": true,
+            "importable": true
+        },
+        "cResAddress": {
+            "type": "text",
+            "isCustom": true,
+            "importable": true
+        },
+        "cPosAddress": {
+            "type": "text",
+            "isCustom": true,
+            "importable": true
+        },
+        "cFax": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cInitials": {
+            "type": "varchar",
+            "maxLength": 20,
+            "isCustom": true,
+            "importable": true
+        },
+        "cHomeLanguage": {
+            "type": "varchar",
+            "maxLength": 50,
+            "isCustom": true,
+            "importable": true
+        },
+        "cSession": {
+            "type": "varchar",
+            "maxLength": 32,
+            "isCustom": true,
+            "importable": false
+        },
+        "cCompanyDivision": {
+            "type": "int",
+            "isCustom": true,
+            "importable": true
+        },
+        "cFingerprintID": {
+            "type": "int",
+            "isCustom": true,
+            "importable": true
+        },
+        "cLastPhotoUpdate": {
+            "type": "datetime",
+            "isCustom": true,
+            "importable": false
+        },
+        "cInOffice": {
+            "type": "bool",
+            "isCustom": true,
+            "importable": true
+        },
+        "legacyStaffId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false
+        },
+        "homePublicationId": {
+            "type": "link",
+            "entity": "CPublications",
+            "notStorable": false
+        },
+        "legacyHomePublicationId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+
+        "homePublicationId": {
+            "type": "belongsTo",
+            "entity": "CPublications"
         }
     },
     "importable": true
-} 
+}
+  

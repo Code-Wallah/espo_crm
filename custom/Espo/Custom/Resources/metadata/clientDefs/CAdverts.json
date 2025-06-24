@@ -2,5 +2,27 @@
     "controller": "controllers/record",
     "boolFilterList": [
         "onlyMy"
-    ]
+    ],
+    "color": "#16a34a",
+    "iconClass": "fas fa-ad",
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "label": "Publications",
+                    "link": "#CPublications",
+                    "acl": "read",
+                    "style": "default",
+                    "aclScope": "CPublications"
+                },
+                {
+                    "label": "Business Types",
+                    "link": "#CBusinessTypes",
+                    "acl": "read",
+                    "style": "default",
+                    "aclScope": "CBusinessTypes"
+                }
+            ]
+        }
+    }
 }

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "salesManager"
+    },
+    {
+        "name": "publicationEditionIDSales"
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "modifiedAt"
+    }
+] 

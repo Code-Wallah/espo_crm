@@ -36,15 +36,55 @@
             "view": "views/fields/teams"
         },
         "salesManager": {
-            "type": "int",
+            "type": "link",
             "isCustom": true
         },
         "publicationEditionIDSales": {
-            "type": "int",
+            "type": "link",
             "isCustom": true
         },
         "publicationEditionIDProd": {
+            "type": "link",
+            "isCustom": true
+        },
+        "legacyPublicationId": {
             "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        },
+        "legacySalesManagerId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        },
+        "legacyPublicationEditionIdSales": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        },
+        "legacyPublicationEditionIdProd": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
             "isCustom": true
         }
     },
@@ -66,6 +106,21 @@
             "entity": "Team",
             "relationName": "entityTeam",
             "layoutRelationshipsDisabled": true
+        },
+        "salesManager": {
+            "type": "belongsTo",
+            "entity": "User",
+            "isCustom": true
+        },
+        "publicationEditionIDSales": {
+            "type": "belongsTo",
+            "entity": "CPublicationEditions",
+            "isCustom": true
+        },
+        "publicationEditionIDProd": {
+            "type": "belongsTo",
+            "entity": "CPublicationEditions",
+            "isCustom": true
         }
     },
     "collection": {

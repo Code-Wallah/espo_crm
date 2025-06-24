@@ -1,10 +1,18 @@
 {
     "fields": {
-        "salesManager": "SalesManager",
-        "publicationEditionIDSales": "PublicationEditionIDSales",
-        "publicationEditionIDProd": "PublicationEditionIDProd"
+        "salesManager": "Sales Manager",
+        "publicationEditionIDSales": "Sales Edition",
+        "publicationEditionIDProd": "Production Edition",
+        "legacyPublicationId": "Legacy Publication ID",
+        "legacySalesManagerId": "Legacy Sales Manager ID",
+        "legacyPublicationEditionIdSales": "Legacy Sales Edition ID",
+        "legacyPublicationEditionIdProd": "Legacy Production Edition ID"
     },
-    "links": [],
+    "links": {
+        "salesManager": "Sales Manager",
+        "publicationEditionIDSales": "Sales Edition",
+        "publicationEditionIDProd": "Production Edition"
+    },
     "labels": {
         "Create CPublications": "Create Publication"
     }

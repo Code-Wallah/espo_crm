@@ -1,0 +1,104 @@
+{
+    "fields": {
+        "account": {
+            "type": "link",
+            "entity": "Account",
+            "notStorable": false
+        },
+        "legacyLeadId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": false,
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        },
+        "legacyCompanyId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        },
+        "legacyStaffId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        },
+        "legacyPublicationId": {
+            "type": "int",
+            "notStorable": false,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "isCustom": true
+        },
+        "publication": {
+            "type": "link",
+            "entity": "CPublications",
+            "notStorable": false,
+            "isCustom": true
+        },
+        "billingAccount": {
+            "type": "link",
+            "entity": "Account",
+            "notStorable": false,
+            "isCustom": true
+        },
+        "lastContactDate": {
+            "type": "datetime",
+            "notStorable": false,
+            "isCustom": true
+        },
+        "materialContact": {
+            "type": "link",
+            "entity": "Contact",
+            "notStorable": false,
+            "isCustom": true
+        },
+        "billingContact": {
+            "type": "link",
+            "entity": "Contact",
+            "notStorable": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        },
+        "publication": {
+            "type": "belongsTo",
+            "entity": "CPublications",
+            "isCustom": true
+        },
+        "billingAccount": {
+            "type": "belongsTo",
+            "entity": "Account",
+            "isCustom": true
+        },
+        "materialContact": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "isCustom": true
+        },
+        "billingContact": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "isCustom": true
+        }
+    }
+} 

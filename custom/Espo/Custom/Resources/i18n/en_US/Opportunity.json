@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "legacyLeadId": "Legacy Lead ID",
+        "publication": "Publication",
+        "billingAccount": "Billing Account (Agency)",
+        "lastContactDate": "Last Contact Date",
+        "materialContact": "Material Contact",
+        "billingContact": "Billing Contact"
+    },
+    "links": {
+        "publication": "Publication",
+        "billingAccount": "Billing Account (Agency)"
+    }
+} 
